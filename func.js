@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("t02");
-  document.getElementById("demo").innerHTML = x;
+  var x = document.getElementById("02Text").value;
+  document.getElementById("result").innerHTML = x;
 }
 
