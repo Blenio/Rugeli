@@ -6,26 +6,25 @@
     <script type="text/javascript" src="func.js" /></script>
     <title>Rugeli's Adventsrätsel :-)</title>
   
-    <style>
-    @font-face {
-       font-family: myFirstFont;
-       src: url(sansation_light.woff);
+    <style>    
+      
+    div.card {
+      width: 250px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
     }
 
-    * {
-       font-family: myFirstFont;
-    }      
-      
-    div.polaroid {
-     width: 250px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     text-align: center;
+    div.header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        font-size: 40px;
     }
 
     div.container {
-     padding: 10px;
+        padding: 10px;
     }
-      
+    
     </style>
   </head>
   <body>
@@ -34,10 +33,11 @@
 <html>
 <body onload="javascript:checkDate()">
 
-<h1>02. Dezember</h1>
-  
-<div class="polaroid">
-  <img src="xyz.jpg" alt="IMG" style="width:100%">
+<div class="card">
+  <div class="header">
+   <h1>02. Dezember</h1>
+  </div>
+
   <div class="container">
     <p id="puzzle">...</p>
     <p>Lösung: <input type="text" id="loesung">
@@ -45,7 +45,7 @@
     <p id="hint"></p>
   </div>
 </div>  
-  
+   
   <p id="debug"></p>
 </body>
 </html>
