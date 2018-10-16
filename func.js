@@ -5,10 +5,10 @@ function checkButton() {
 
 function checkDate() {
   var dateToday = new Date().getDate(); 
-  if (dateToday == 17) {
-    document.getElementById("result2").innerHTML = "Heute ist der " + x;
+  if (dateToday == 16) {
+    document.getElementById("result2").innerHTML = dateToday;
   } else {
-    document.getElementById("result2").innerHTML = "Kein Rätseltag :-)";
+    document.getElementById("result2").innerHTML = "Kein Rätseltag " + dateToday;
   }
 }
 
