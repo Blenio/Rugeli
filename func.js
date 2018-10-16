@@ -5,7 +5,7 @@ function checkButton() {
 
 function checkDate() {
   var dateToday = new Date().getDate(); 
-  if (dateToday == 16) {
+  if (dateToday == 17) {
     document.getElementById("result2").innerHTML = "Heute ist der " + x;
   } else {
     document.getElementById("result2").innerHTML = "Kein Rätseltag :-)";
