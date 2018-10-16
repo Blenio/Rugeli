@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="func.js" /></script>
     <title>Rugeli's Adventsrätsel :-)</title>
+  
+    <style>
+    div.polaroid {
+     width: 250px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     text-align: center;
+    }
+
+    div.container {
+     padding: 10px;
+    }
+    </style>
   </head>
   <body>
     
@@ -13,11 +25,16 @@
 <body onload="javascript:checkDate()">
 
 <p>02. Dezember</p>
-  <p id="puzzle">...</p>
-  <p>Lösung: <input type="text" id="loesung">
-  <button onclick="checkButton()">Check</button>
-  <p id="hint"></p>
   
+<div class="polaroid">
+  <img src="xyz.jpg" alt="IMG" style="width:100%">
+  <div class="container">
+    <p id="puzzle">...</p>
+    <p>Lösung: <input type="text" id="loesung">
+    <button onclick="checkButton()">Check</button>
+    <p id="hint"></p>
+  </div>
+</div>  
   
   <p id="debug"></p>
 </body>
