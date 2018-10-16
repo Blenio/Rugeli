@@ -6,6 +6,8 @@ function checkButton() {
 function checkDate() {
   var myDay = new Date().getDate(); 
   
+  document.getElementById("debug").innerHTML = "myDay: " + myDay;
+  
   switch(myDay) {
     case 02:
         document.getElementById("puzzle").innerHTML = "Text Puzzle 02";
