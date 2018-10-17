@@ -6,12 +6,16 @@ var thePresent = "..."; //Versteck
 
 // Button Hint
 function checkHint() {
-  document.getElementById("buttonHint").style.display = 'none';
-  document.getElementById("theHint").innerHTML = theHint;
+  var result = confirm("Wirk? :-)");
+  if (result) {
+    document.getElementById("buttonHint").style.display = 'none';
+    document.getElementById("theHint").innerHTML = theHint;
+  }
 }
 
 // Button Check
 function checkButton() {
+
   var x = document.getElementById("loesung").value;
   var present = "";
   
