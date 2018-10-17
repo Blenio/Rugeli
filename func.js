@@ -6,7 +6,7 @@ var thePresent = "..."; //Versteck
 
 // Button Hint
 function checkHint() {
-  var result = confirm("Wirk? :-)");
+  var result = confirm("Sicher? :-)");
   if (result) {
     document.getElementById("buttonHint").style.display = 'none';
     document.getElementById("theHint").innerHTML = theHint;
