@@ -4,9 +4,6 @@ var theHint = "..."; //Tipp
 var theSolution = "..."; //Lösung
 var thePresent = "..."; //Versteck
 
-// Set Header with current Date (day)
-document.getElementById("day").innerHTML = myDay + " Dezember";
-
 // Button Hint
 function checkHint() {
   document.getElementById("buttonHint").style.display = 'none';
