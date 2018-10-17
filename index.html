@@ -2,7 +2,7 @@
 <html lang="de">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="func.js" /></script>
+    <script type="text/javascript" src="index.js" /></script>
     <title>Rugeli's Adventsrätsel :-)</title>
     <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
   
@@ -16,14 +16,12 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: center;
     }
-
     div.header {
         background-color: #262D69;
         color: white;
         padding: 5px;
-        font-size: 25px;
+        font-size: 20px;
     }
-
     div.container {
         padding: 10px;
     }
@@ -32,11 +30,11 @@
     background-color: #262D69;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Architects Daughter';
     margin: 4px 2px;
     cursor: pointer;
@@ -51,20 +49,26 @@
 
 <div class="card">
   <div class="header">
-   <h1>02 DEZ</h1>
+   <h1><div id="day"></div></h1>
   </div>
 
-  <div class="container">
+  <div class="container" id="container">
     <p id="puzzle">...</p>
     <hr>
-    <p>Lösung: <input type="text" id="loesung">
+    
+    <div id="hint">
+      <button class="button" id="buttonHint" onclick="checkHint()">Hint</button>
+      <p id="theHint"></p>
+      <hr>
+    </div>
+    
+    <p><input type="text" id="loesung">
     <button class="button" onclick="checkButton()">Check</button>
     <hr>
-    <p id="hint"></p>
-    <br>
+    <p id="present"></p>
   </div>
 </div>  
    
-  <p id="debug"></p>
+<p id="debug" style="text-align: center;"></p>
 </body>
 </html>
