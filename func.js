@@ -38,17 +38,17 @@ function checkDate() {
    }
   
   switch(myDay) {
-    case 18:
-      thePuzzle = "Rätsel 02:<br>.Zahlen drei suchen Wir<br>---<br>Tag 5.: Morgen wurde es & Abend wurde es...";
-      theHint = "Aus einem sehr erfolgreiches Buch";
+    case 2:
+      thePuzzle = "Rätsel vom 2. Dezember:<br>.Zahlen drei suchen Wir<br>---<br>Tag 5.: Morgen wurde es & Abend wurde es...";
+      theHint = "Aus einem sehr, sehr erfolgreichen Buch";
       theSolution = "123";
       thePresent = "Das Geschenk ist unter der Türmatte";
       break;
-    case 4:
-      thePuzzle = "Rätsel 4";
-      theHint = "Hint 4";
-      theSolution = "b";
-      thePresent = "Das Geschenk ist 4";
+    case 18:
+      thePuzzle = "Rätsel vom 4. Dezember:<br>x x _ x x x _ _ _ ist die weibliche Hauptrolle in welchem Film?<br>---<br>(28 657,  46 368,  75 025, 121 393) ";
+      theHint = "Berühmter mathematischer Satz";
+      theSolution = "shrek";
+      thePresent = "Das Geschenk ist oben auf unserem Schlafzimmerschrank";
       break;
     case 6:
       thePuzzle = "Rätsel 4";
