@@ -102,7 +102,7 @@ function checkDate() {
       thePuzzle = "Was:Calciumcarbonat<br>Wo: Carpenters / Bitte Wuschu"; 
       theHint = "Wikipedia, 1. Modifikation der Natur / Song";
       theSolution = "8a7";
-      thePresent = "Bringe ich nach Hause, wenn Du mir *Der Adler ist gelandet* per SMS schreibst"";
+      thePresent = "Bringe ich nach Hause, wenn Du mir *Der Adler ist gelandet* per SMS schreibst";
       break;
     case 24:
       thePuzzle = "Doppeltes Glück zwischen einem kurzen Monat"; 
