@@ -111,7 +111,7 @@ function checkDate() {
       thePresent = "Das Geschenk ist unter einem Kopfkissen";
       break;      
     default:
-      thePuzzle = "Leider kein Rätseltag heute...<br>";
+      thePuzzle = "Leider kein Rätseltag heute...<br><br>";
       theHint = "";
       theSolution = "";
       thePresent = "";
