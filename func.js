@@ -105,7 +105,7 @@ function checkDate() {
       thePresent = "Bringe ich nach Hause, wenn Du mir *Der Adler ist gelandet* per SMS schreibst";
       break;
     case 24:
-      thePuzzle = "Doppeltes Glück gibt es auch vor und nach kurzen Monaten"; 
+      thePuzzle = "Double luck exists also between short months"; 
       theHint = "13";
       theSolution = "lilian";
       thePresent = "Das Geschenk ist unter einem Kopfkissen";
