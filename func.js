@@ -39,7 +39,7 @@ function checkDate() {
   
   switch(myDay) {
     case 2:
-      thePuzzle = ".Zahlen drei suchen Wir<br>---<br>Tag 5.: Morgen wurde es & Abend wurde es...";
+      thePuzzle = ".Zahlen drei suchen wir<br>---<br>Tag 5.: Morgen wurde es & Abend wurde es...";
       theHint = "Aus einem sehr, sehr erfolgreichen Buch";
       theSolution = "123";
       thePresent = "Das Geschenk ist unter einer Türmatte";
