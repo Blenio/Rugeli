@@ -48,7 +48,7 @@ function checkDate() {
       thePuzzle = "x x _ x x x _ _ _ ist die weibliche Hauptrolle in welchem (dir bekannten) Film?<br>---<br>(28 657,  46 368,  75 025, 121 393) ";
       theHint = "Berühmter mathematischer Satz";
       theSolution = "shrek";
-      thePresent = "Das Geschenk ist oben auf unserem Schlafzimmerschrank";
+      thePresent = "Das Geschenk ist eine MASSAGE!!! :-)";
       break;
     case 6:
       thePuzzle = "chay' ngo' ali?";
